@@ -1,0 +1,324 @@
+/*Configurações iniciais*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Cabeçario*/
+header {
+  background-color: black;
+  border-bottom: 2px solid #005f73;
+  border-top: 2px solid #005f73;
+  height: 180px;
+}
+
+/*logo*/
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  position: relative;
+  top: 20px;
+}
+
+/*Titulo h1 do header (Julia Nascimento)*/
+.titulo1 {
+  color: white;
+  position: relative;
+  top: -60px;
+  left: 90px;
+}
+
+/*Subtitulo p pequena descrição no header*/
+.subtitulo {
+  color: white;
+  position: relative;
+  top: -40px;
+  left: 90px;
+}
+
+/*Menu de navegação do header*/
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  position: relative;
+  top: -120px;
+  left: 500px;
+}
+
+/*Barra de pesquisa do header (levar as sessões do hero)*/
+.pesquisa {
+  margin: 10px;
+  position: relative;
+  top: -100px;
+  left: 505px;
+  width: 200px;
+}
+
+/*hero(corpo)*/
+main {
+  background-color: #454444;
+  color: white;
+  max-width: 1440px;
+  margin: auto;
+  padding: 67px;
+  border-bottom: 2px solid #005f73;
+}
+
+/*sessões principais do hero*/
+section {
+  padding: 40px 20px;
+  margin: 0 auto 5px;
+  border-radius: 10px;
+  background-color: black;
+  width: 1250px;
+  position: relative;
+  left: -40px;
+  border-bottom: 2px solid #005f73;
+  border-top: 2px solid #005f73;
+}
+
+/*h1 principal, titulo do header*/
+.titulo2 {
+  position: relative;
+  top: 75px;
+  left: 100px;
+}
+
+/*Foto atual, sessão inicio*/
+.img02 {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*quadro de fundo, imagem 2*/
+.fundoimg02 {
+  background-color: #005f73;
+  width: 350px;
+  height: 520px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  top: -70px;
+  left: 800px;
+}
+
+/*texto da sessão sobre mim*/
+.sobremim {
+  background-color: #005f73;
+  color: black;
+  width: 450px;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  top: 140px;
+  left: 70px;
+  font-size: large;
+  text-align: justify;
+}
+
+/*foto antiga, sessão sobre mim*/
+.img03 {
+  width: 230px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/*quadro de fundo, imagem 3*/
+.fundoimg03 {
+  background-color: #005f73;
+  width: 230px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  top: -190px;
+  left: 800px;
+}
+
+/*padronização dos titulos das sessões*/
+h2{
+  text-align: center;
+  margin-bottom: 15px;
+  color: #005f73;
+}
+
+/*subtitulo sessão inicio*/
+h4{
+  color:#005f73;
+  width: 400px;
+  position: relative;
+  top: 95px;
+  left: 100px;
+  text-align: justify;
+}
+
+/*lista da sessão curiosidades*/
+ul.curiosidades {
+  list-style: none;
+}
+
+/*configurações da lista, sessão curiosidades*/
+ul.curiosidades li {
+  margin: 15px 0;
+  padding: 10px;
+  border-left: 5px solid #005f73;
+  background: #bfd5e8;
+  color: black;
+}
+
+/*configurações da sessão causos*/
+.causos {
+  background-color:#0a9396;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+/*portfólio, configuração geral dos cards*/
+.card {
+  width: 20%;
+  height: 250px;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  background: #005f73;
+  border-radius: 10px;  
+  text-align: center;
+}
+
+/*configuração das imagem nos cards*/
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*configuração dos texto nos cards*/
+.card-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  text-align: justify;
+}
+
+#portfolio::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*tabela, sessão rotina*/
+table.rotina {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #bfd5e8;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 50px;
+  margin-top: 50px; 
+}
+
+/*configuração de linhas e colunas*/
+table.rotina thead th {
+  background-color: #005f73;
+  color: black;
+  padding: 12px 15px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+table.rotina tbody td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #005f73
+}
+
+/*Rodapé, configurações gerais*/
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #005f73;
+}
+
+footer h3 {
+  margin: 10px 0;
+
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav li {
+  display: inline-block;
+  margin: 15px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav a:hover {
+  color: #005f73;
+}
+
+footer p a {
+  color: #005f73;
+}
+
+.redes a {
+  display: inline-block;
+  margin: 5px;
+  color: #005f73;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*botão CTA 1*/
+.botao1 {
+  background-color: #005f73;
+  color: white;
+  font-family: Arial;
+  font-size: larger;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 12px 25px;
+  transition: background-color 0.2s;
+}
+
+.botao1:hover {
+  background-color: white;
+  color: black;
+}
+
+/*botão CTA 2*/
+.botao2 {
+  background-color: #005f73;
+  color: white;
+  font-family: Arial;
+  font-size: larger;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  transition: background-color 0.2s;
+  position: relative;
+  top: -300px;
+  left: 250px;
+}
+
+.botao2:hover {
+  background-color: white;
+  color: black;
+}

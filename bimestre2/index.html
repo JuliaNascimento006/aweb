@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Nascimento</title>
+    <link rel="stylesheet" href="assets\style.css">
+    <link rel="shortcut icon" href="img01.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets\img\img01.png" alt="logo" class="logo">
+        <h1 class="titulo1">Julia Nascimento</h1>
+        <p class="subtitulo">Página pessoal - projetos, interesses, experiências, <br> vida acadêmica e um pouco sobre mim.</p>
+        <nav>
+            <a href="#inicio"><i class="fa-solid fa-house"></i>  Início</a>
+            <a href="#sobremim"><i class="fa-solid fa-user"></i>  Sobre mim</a>
+            <a href="#curiosidades"><i class="fa-solid fa-magnifying-glass"></i>  Curiosidades</a>
+            <a href="#causos"><i class="fa-solid fa-comment"></i>  Causos</a>
+            <a href="#portfolio"><i class="fa-solid fa-image"></i>  Portfólio</a>
+            <a href="#rotina"><i class="fa-solid fa-list"></i>  Rotina</a>
+            <a href="#sobremim" class="botao1">Clique aqui!</a>
+        </nav>
+        <select class="pesquisa" onchange="window.location=this.value">
+            <option value="#inicio">Início</option>
+            <option value="#sobremim">Sobre mim</option>
+            <option value="#curiosidades">Curiosidades</option>
+            <option value="#causos">Causos</option>
+            <option value="#portfolio">Portfólio</option>
+            <option value="#rotina">Rotina</option>
+        </select>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+            <h1 class="titulo2">Seja bem-vinda(o)</h1>
+            <h4>Estudante, interessada em aprender sobre diferentes áreas e expandir meus conhecimentos continuamente. Além do interesse por finaças, leitura e experiências pessoais, acompanho as novidades tecnológicas e busco entender como elas impactam o dia a dia e as soluções práticas para problemas comuns.</h4>
+            <div class="fundoimg02">
+                <img src="assets\img\img02.jpg" alt="foto01" class="img02">
+            </div>
+            <a href="#sobremim" class="botao2">Saiba mais!</a>
+        </section>
+
+        <section id="sobremim">
+            <h2>Sobre mim</h2>
+            <p class="sobremim">Olá, seja bem-vindo(a) ao meu portfólio! Meu nome é Julia da Silva Nascimento, tenho 18 anos e moro no estado do Rio 
+                Grande do Norte, Ceará-Mirim, mas especificamente, no litoral da cidade chamado Muriú lugar onde nasci e cresci. Gosto muito de ler, de 
+                animais, de aprender coisas novas e viajar. Um dos meus maiores sonhos é viajar pelo mundo, conhecendo novas culturas e aprendendo com 
+                cada experiência. Uma área de grande interesse pessoal é a educação financeira e investimentos, sendo algo no qual invisto meu tempo com 
+                frequência e pretendo me dedicar futuramente.</p>
+            <div class="fundoimg03">
+                <img src="assets\img\img03.jpg" alt="foto02" class="img03">
+            </div>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <ul class="curiosidades">
+                <li>Curiosidade n°1: Gosto de resolver quebra-cabeças e desafios de lógica nas horas vagas.</li>
+                <li>Curiosidade n°2: A alguns anos consegui bater um recorde pessoal montando um cubo mágico em pouco mais de três minutos!</li>
+                <li>Curiosidade n°3: Prefiro café gelado ao inves de quente mesmo em dias frios...</li>
+                <li>Curiosidade n°4: Nesse momento da minha vida, em especifíco, venho me dedicando ao inglês, estando no segundo mês de um curso a parte. </li>
+                <li>Curiosidade n°5: Trabalho em uma pizzaria nos finais de semana a noite atuando como atendente virtual e resolvendo problemas básicos voltados a informática. </li>
+            </ul>
+
+        </section>
+
+        <section id="causos">
+            <h2>Causos</h2>
+            <p class="causos"><strong>Primeiras experiências com programação... </strong><br>Durante uma das minhas primeiras tentativas com programação, ainda no 1° ano do curso, no computador, cometi um erro que não imaginava que poderia ter tanta consequência: criei um loop infinito. Assim que executei o código, o programa travou imediatamente e o computador não respondia a nada alem de ficar reiniciando o loop sozinho repetidas vezes, como se estivesse preso em um ciclo sem fim. Fiquei observando, tentando entender o que tinha acontecido, enquanto a tela piscava e mostrava formas estranhas. com certeza, uma mistura de frustração e risada, porque eu não conseguia acreditar que um pequeno erro de lógica tinha parado todo o programa. Aquela experiência me ensinou, de forma prática e, consequentemente, bem-humorada, a importância de testar cada parte do código com cuidado, além de me dar uma boa história para contar sobre os primeiros desafios que enfrentei na programação. No final, decidi reiniciar o computador e tudo deu certo.</p>
+
+        </section>
+
+        <section id="portfolio" class="">
+            <h2>Portfólio</h2>
+            <div class="card">
+                <img src="assets\img\atividade_1.jpg" alt="Atividade 1">
+                <p class="card-text">Produção da parte técnica do meu projeto integrador!</p>
+            </div>
+  
+            <div class="card">
+                <img src="assets\img\atividade_2.jpg" alt="Atividade 2">
+                <p class="card-text">Montagem de quebra-cabeça de 1000 peças.</p>
+            </div>
+  
+            <div class="card">
+                <img src="assets\img\atividade_3.jpg" alt="Atividade 3">
+                <p class="card-text">Parcipar do grupo de robótica do campus, sendo uma das componentes da equipe Byte!</p>
+            </div>
+                
+            <div class="card">
+                <img src="assets\img\atividade_4.jpg" alt="Atividade 4">
+                <p class="card-text">Colecionar cádulas brasileiras.</p>
+            </div>
+        </section>
+
+        <section id="rotina">
+            <h2>Rotina</h2>
+            <table class="rotina">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Manhã</th>
+                        <th>Tarde</th>
+                        <th>Noite</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>Durmo e leio</td>
+                        <td>Escola</td>
+                        <td>Descansar, familia</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>Robótica, estudos à parte</td>
+                        <td>Escola</td>
+                        <td>Descansar, familia</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>Estudos à parte</td>
+                        <td>Escola</td>
+                        <td>Descansar, familia</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>Estudos á parte, aulas artes II</td>
+                        <td>Escola</td>
+                        <td>Descansar, familia</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>Robótica, preparar p/ semana seguinte</td>
+                        <td>Escola</td>
+                        <td>Descansar, familia</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>Curso inglês</td>
+                        <td>Cuidar da casa</td>
+                        <td>Trabalho</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Dormir</td>
+                        <td>Ler ou filmes</td>
+                        <td>Trabalho</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Julia Nascimento</h3>
+        <nav>
+            <ul>
+                <li><a href="#inicio"><i class="fa-solid fa-house"></i>  Início</a></li>
+                <li><a href="#sobremim"><i class="fa-solid fa-user"></i>  Sobre mim</a></li>
+                <li><a href="#curiosidades"><i class="fa-solid fa-magnifying-glass"></i>  Curiosidades</a></li>
+                <li><a href="#causos"><i class="fa-solid fa-comment"></i>  Causos</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-image"></i>  Portfólio</a></li>
+                <li><a href="#rotina"><i class="fa-solid fa-list"></i>  Rotina</a></li>
+            </ul>
+        </nav>
+
+        <h3>Contato</h3>
+        <p>Email para contato: <a href="mailto: juliadasilvanascimento06@gmail.com">juliadasilvanascimento06@gmail.com</a></p>
+
+        <h3>Redes sociais</h3>
+        <div class="redes">
+            <a href="https://instagram.com/julianascimento006" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@juliadasi1va" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://youtube.com/@JuliadaSilvaNascimento06" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
